@@ -1,6 +1,6 @@
 {
     "name": "PopupsBeGone",
-    "description": "Removes new tabs when enabled",
+    "description": "Removes new tab popups when enabled",
     "version": "1.0",
     "manifest_version": 3,
     "action": 
@@ -8,18 +8,15 @@
       "default_popup": "popup.html",
       "default_icon": 
       {
-        "16": "/images/get_started16.png",
-        "32": "/images/get_started32.png",
-        "48": "/images/get_started48.png",
-        "128": "/images/get_started128.png"
+        "16": "Assets/Images/Icons/cancel 16.png",
+        "32": "Assets/Images/Icons/cancel 32.png",
+        "128": "Assets/Images/Icons/cancel 128.png"
       }
     },
     "icons": 
     {
-      "16": "/images/get_started16.png",
-      "32": "/images/get_started32.png",
-      "48": "/images/get_started48.png",
-      "128": "/images/get_started128.png"
-    }, 
-    "content_scripts": [{}]
+        "16": "Assets/Images/Icons/cancel 16.png",
+        "32": "Assets/Images/Icons/cancel 32.png",
+        "128": "Assets/Images/Icons/cancel 128.png"
+    }
   }
