@@ -1,1 +1,1 @@
-console.log("MUHAHahHAHAHA")
+document.body.innerHTML = ""

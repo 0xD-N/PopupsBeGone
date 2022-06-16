@@ -11,6 +11,7 @@ let getTab = async function()
 chrome.tabs.onActivated.addListener(async function()
 {
     let currentTab = await getTab()
+    console.log("here")
     chrome.scripting.executeScript({files: ["./inject.js"], target: {tabId: currentTab["id"]}})
     
 })
